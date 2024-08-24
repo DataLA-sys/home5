@@ -2,7 +2,7 @@
   "entityType" : "ENTITY_GROUP",
   "entity" : {
     "additionalInfo" : {
-      "description" : ""
+      "description" : "aaa"
     },
     "configuration" : {
       "columns" : [ {
@@ -15,25 +15,32 @@
         "sortOrder" : "NONE"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "asset_profile",
+        "key" : "device_profile",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "label",
         "sortOrder" : "NONE"
       } ],
       "settings" : { },
       "actions" : { }
     },
     "edgeGroupAll" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "30680c60-3f7a-11ef-b09e-0f1230ba9f1e"
+    },
     "groupAll" : false,
     "id" : {
       "entityType" : "ENTITY_GROUP",
-      "id" : "13501ba0-621f-11ef-8402-d9db03caf16c"
+      "id" : "30680c60-3f7a-11ef-b09e-0f1230ba9f1e"
     },
-    "name" : "Asset-group-1",
+    "name" : "VideoCameras",
     "ownerId" : {
       "entityType" : "TENANT",
       "id" : "b65b6390-3f79-11ef-b3b9-cf02e18c4429"
     },
-    "type" : "ASSET"
+    "type" : "DEVICE"
   },
   "relations" : [ ],
   "attributes" : {
